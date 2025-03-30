@@ -1,7 +1,9 @@
 fun main () {
 
-    var originalPrice: Double = 12000.0
-    var saleSize: Double = 20.0
+    var originalPrice: Double
+    var saleSize: Double
+    originalPrice = 12000.0
+    saleSize = 20.0
     var discountAmount = originalPrice * saleSize / 100
     var finalPrice = originalPrice - discountAmount
 
